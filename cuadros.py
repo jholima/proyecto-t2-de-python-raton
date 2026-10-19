@@ -86,8 +86,7 @@ print("\n--------------------------------")
 if exito == True:
     print("El raton logro salir con " + str(puntos_totales) + " puntos!")
     
-git add .
-for pos in visitados:
+    for pos in visitados:
         rf = pos[0]
         rc = pos[1]
         if laberinto[rf][rc] != 'I' and laberinto[rf][rc] != 'F':
